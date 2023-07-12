@@ -4,10 +4,10 @@ if -100000 <= a and 100000 >= b:
     print("a =", a)
     print("b =", b)
 
+# 다시 풀었을 때
 a, b = map(int, input().strip().split(" "))
 if -100000 <= a and 100000 >= b:
-    print("a = " + str(a))
-    print("b = " + str(b))
+    print(f"a = {a}\nb = {b}")
 
 # 방법1
 a, b = map(int, input().strip().split(" "))

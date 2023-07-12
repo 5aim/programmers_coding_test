@@ -2,6 +2,11 @@
 str = input()
 print(str)
 
+# 다시 풀었을 때
+str = input()
+if 1 <= len(str) <= 1000000:
+    print(str)
+
 # 방법1 - while문
 str = input()
 while True:
