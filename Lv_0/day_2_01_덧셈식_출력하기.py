@@ -4,6 +4,11 @@ if 1 <= a and b <= 100:
     c = a + b
 print(a, "+", b, "=", c)
 
+# 다시 풀었을 때 
+a, b = map(int, input().strip().split(' '))
+if 1 <= a and b <= 100:
+    print(f"{a} + {b} = {a + b}")
+
 # 방법1 format함수 활용
 a, b = map(int, input().strip().split(' '))
 c = a + b

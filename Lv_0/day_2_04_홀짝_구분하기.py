@@ -6,6 +6,11 @@ if 1 <= a <= 1000:
     else:
         print(f'{a} is odd')
 
+# 다시 풀었을 때 
+a = int(input())
+if 1 <= a <= 1000:
+    print(f"{a} is {'even' if a % 2 == 0 else 'odd'}")
+
 # 방법1
 n=int(input())
 print(f"{n} is {'eovdedn'[n&1::2]}")
